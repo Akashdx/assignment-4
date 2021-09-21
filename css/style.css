@@ -1,0 +1,380 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.container{
+	width: 1140px;
+	margin: 0px auto;
+	float: left;
+}
+header{
+	width: 100%;
+	float: left;
+	padding: 20px 0px;
+	background-color: #87509c;
+}
+.logo{
+	width: 30%;
+	float: left;
+
+}
+.menu{
+	width: 70%;
+	float: left;
+
+}
+nav ul{
+	list-style: none;
+
+}
+nav ul li{
+	display: inline-block;
+	margin: 10px 20px;
+
+}
+nav ul li a{
+	color: white;
+    font-size: 26px;
+    text-decoration: none;
+
+}
+.banner-text{
+	width: 100%;
+	margin: 0px auto;
+    color: white;
+    padding: 92px 0px 136px;
+    font-size: 18px;
+}
+.banner-text h2{
+		text-align: center;
+		margin: 22px;
+	
+}
+.btn{
+	text-align: center;
+    display: block;
+    margin: 0px auto;
+    text-transform: uppercase;
+    background-color: orange;
+    font-size: 25px;
+    padding: 6px;
+    color: white;
+}
+/*..services..*/
+.service{
+	width: 100%;
+	float: left;
+	background-color: #00eaea;
+
+}
+.service h2{
+	text-align: center;
+    font-size: 35px;
+    margin: 10px;	
+}
+.service span{
+	border-bottom: 2px solid #161616;
+    width: 135px;
+    margin: 17px auto;
+    display: block;
+}
+.service p{
+	text-align: center;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin: 10px 30px 30px;	
+}
+.service-logo{
+	width: 25%;
+	float: left;
+}
+.service-logo h2{
+	font-size: 30px;
+}
+.service-logo p{
+	font-size: 20px;
+	margin-bottom: 40px;
+	
+}
+.service-logo img{
+	margin-left: 95px;
+}
+
+/*..team members..*/
+
+
+.TEAM{
+	width: 100%;
+	float: left;
+	background-color: #d8d8d8;
+}
+.tittle span{
+	border-bottom: 1px solid #161616;
+    width: 100px;
+	margin: 11px auto; 
+	display: block;
+
+}
+.tittle p{
+	text-align: center;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin: 10px;
+	
+}
+.team-members{
+	width: 21%;
+    float: left;
+    margin: 0px 14px;
+
+}
+.team-members img{
+	width: 200px;
+}
+.team-members h2{
+	display: table-row-group;
+    width: 0px;
+    font-size: 23px;
+
+
+}
+.team-members p{
+	font-size: 13px;
+/*social icons*/
+}
+.social-icon{
+	width: 25%;
+	float: left;
+
+}
+.social-icon ul{
+	list-style: none;
+
+}
+.social-icon ul li{
+	display: inline-block;
+
+}
+
+.social-icon ul li a i{
+	margin: 25px;
+}
+
+
+.skills{
+	width: 100%;
+	float: left;
+	background-color: white;
+}
+.skills-title p{
+	text-align: center;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin: 10px auto;
+    display: inline-block;
+    width: 88%;	
+}
+.skills-percent{
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+.skills-percent h2{
+	text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 139px;
+}
+.skills-percent img{
+	width: 200px;
+	padding-left: 75px;
+}
+
+.skills-percent-2{
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+.skills-percent-2 img{
+	width: 200px;
+	padding-left: 75px;
+}
+.skills-percent-2 h2{
+	text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 139px;
+}
+.skills-percent-3{
+	width: 33.33%;
+	float: left;
+	position: relative;
+}
+.skills-percent-3 img{
+	width: 200px;
+	padding-left: 75px;
+}
+.skills-percent-3 h2{
+	text-align: center;
+    position: absolute;
+    top: 70px;
+    left: 139px;
+}
+
+
+
+
+
+/*..portflio..*/
+
+.portfolio{
+	width: 100%;
+	float: left;
+	background-color: #f7f76b;
+	padding: 10px 20px 30px;
+
+}
+.portfolio-title{
+
+}
+.portfolio-title h2{
+	text-align: center;
+    margin: 22px;	
+}
+.portfolio-title p{
+	text-align: center;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.portfolio-title ul{
+	width: 40%;
+    margin: 0 auto;
+    padding: 16px 0px 13px 359px;
+    list-style: none;
+    display: inline-flex
+
+}
+.portfolio-title ul li{
+	    margin: 15px;
+}
+.pot-btn{
+	padding: 6px;
+    background-color: #b5b549;
+    margin: 0px auto;
+    font-size: 20px;
+    border: none;
+    transition: 0.4s ease-in-out;
+    color: white;
+}
+.pot-btn:hover{
+	box-shadow: 2px 4px 8px #ffffff;
+}
+.pt-por{
+	width: 100%;
+	float: left;
+	margin-left: 135px;
+
+}
+.pt-por p{
+	width: 30px;
+}
+.pt-por img{
+	width: 320px;
+	float: left;
+}
+.pt-po{
+	width: 50%;
+    float: left;
+}
+.pt-po2{
+	width: 50%;
+    float: right;
+}
+/* About*/
+.About{
+	width: 100%;
+	float: left;
+	background-color: #f33052;
+}
+.About-img{
+	width: 50%;
+	float: left;
+}
+.About img{
+	width: 185px;
+    margin-left: 185px;
+}
+.About p h2{
+	float: right;
+}
+/*contact*/
+.Contact{
+	width: 100%;
+	float: left;
+	background-color: #152479;
+}
+.con{
+	width: 650px;
+	margin: 10px auto;
+}
+.Contact-head{
+	margin-right: 135px;
+}
+.Contact-head p{
+	text-align: center;
+    font-size: 23px;
+    text-transform: capitalize;
+    margin: 10px;
+}
+.help{
+	width: 60%;
+	float: left;
+}
+.form{
+    width: 100%;
+    height: 35px;
+    margin: 5px 55px 5px;
+    font-size: 20px;
+    padding: 2px 10px;
+
+}
+
+.help-li{
+	width: 100%;
+    margin: 5px 57px 10px;
+    padding: 10px 9px 135px;
+    font-size: 20px;	
+}
+.hbt{
+	width: 250%;
+    float: left; 
+}
+.SEND{
+    padding: 13px;
+    text-align: center;
+    display: block;
+ 	margin: 15px 158px 40px;
+    text-transform: uppercase;
+    background-color: #59adf1;
+    font-size: 20px;
+    color: white;
+}
+.foder{
+	width: 100%;
+	float: left;
+	background-color: blue;
+
+}
+.foder ul{
+	list-style: none;
+	display: inline-flex;
+	
+}
+.foder ul li{
+	margin: 18px 30px 18px;
+    color: white;
+    font-size: 20px;
+	
+}
+
